@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎆 Салют</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-fireworks"></i> Виртуальный салют</h1>
+        <p class="subtitle">Кликни в любом месте для запуска салюта</p>
+        
+        <div class="controls">
+            <button id="autoFire"><i class="fas fa-play"></i> Автозапуск</button>
+            <button id="stopFire"><i class="fas fa-stop"></i> Остановить</button>
+            <button id="clearScreen"><i class="fas fa-broom"></i> Очистить</button>
+        </div>
+        
+        <div class="info">
+            <p><i class="fas fa-mouse-pointer"></i> Давай ещё </p>
+        </div>
+    </div>
+
+    <canvas id="fireworksCanvas"></canvas>
+    
+    <footer>
+        <p>Сделано с <i class="fas fa-heart"></i> на JavaScript | 
+            <a href="https://github.com/Zhanette51/fireworks" target="_blank">
+                <i class="fab fa-github"></i> Исходный код
+            </a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
